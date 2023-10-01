@@ -51,4 +51,4 @@ function addGeoJSONToMapAndTable(geoJSONUrl, map, table) {
     });
 }
 
-addGeoJSONToMapAndTable('https://raw.githubusercontent.com/raulmahya123/gisfix/master/TUGAS1/1214053-RAULMAHYA/geojsonLinestring.json', map, document.querySelector('table'));
+addGeoJSONToMapAndTable('https://raw.githubusercontent.com/raulmahya123/leafflet3c/master/TUGAS1/1214053-RAULMAHYA/geojsonLinestring.json', map, document.querySelector('table'));

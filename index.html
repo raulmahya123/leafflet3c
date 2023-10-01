@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MUNCULIN GEOJSONNYA</title>
+
+    <title>LEAFLET</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
     <div>
-        <h1>ini geo jsonLine line string</h1>
+        <h1>iNI BANDUNG</h1>
         <div id="map" style="height: 500px;"></div>
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
 
         <!-- Include Leaflet via CDN -->
         <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
@@ -18,17 +23,7 @@
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
         <!-- Create a table to display GeoJSON data -->
-        <table border="1">
-            <tr>
-                <th>no</th>
-                <th>Name</th>
-                <th>Desa</th>
-                <th>Coordinates</th>
-                <th>Type</th>
-            </tr>
-            <!-- Rows for GeoJSON data will be added here -->
-        </table>
-
+ 
         <!-- Include the separated JavaScript file -->
         <script type="module" src="script.js"></script>
     </div>

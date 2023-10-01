@@ -52,4 +52,4 @@ function addGeoJSONToMapAndTable(geoJSONUrl, map, table) {
 }
 
 // Call the function for LineString GeoJSON using the raw URL
-addGeoJSONToMapAndTable('../TUGAS1/1214053-RAULMAHYA/geojsonLinestring.json', map, document.querySelector('table'));
+addGeoJSONToMapAndTable('https://raw.githubusercontent.com/raulmahya123/leafflet3c/master/TUGAS1/1214053-RAULMAHYA/geojsonLinestring.json', map, document.querySelector('table'));
